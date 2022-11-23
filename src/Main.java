@@ -21,5 +21,11 @@ public class Main {
                 System.out.println("Четные числа: " + i);
             }
         }
+
+        System.out.println("Задача 4");
+
+        for (int i = 10; i >= -10; i--) {
+            System.out.println("Считаю: " + i);
+        }
     }
 }
