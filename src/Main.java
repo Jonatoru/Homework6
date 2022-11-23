@@ -47,5 +47,14 @@ public class Main {
         for (int i = 1; i <= 512; i*=2) {
             System.out.println("Вывожу последовательность: " + i);
         }
+
+        System.out.println("Задача 8");
+
+        int putOff = 29000;
+        int total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total = total + putOff;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей.");
+        }
     }
 }
