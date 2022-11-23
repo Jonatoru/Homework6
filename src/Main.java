@@ -56,5 +56,15 @@ public class Main {
             total = total + putOff;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей.");
         }
+
+        System.out.println("Задача 9");
+
+        int putOff1 = 29000;
+        int total1 = 0;
+        for (int i = 1; i <= 12; i++) {
+            total1 = total1 + total1/ 100;
+            total1 = total1 + putOff1;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total1 + " рублей.");
+        }
     }
 }
