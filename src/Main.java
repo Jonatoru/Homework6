@@ -81,6 +81,16 @@ public class Main {
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total2 + " рублей.");
         }
 
+        System.out.println("Задача 2");
 
+        int numbers = 1;
+        while (numbers <= 10) {
+            System.out.print(numbers);
+            numbers ++;
+        }
+        System.out.print("\n");
+        for (int numbers2 =10 ;numbers2 >= 1; numbers2 --) {
+            System.out.print(numbers2);
+        }
     }
 }
