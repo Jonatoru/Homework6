@@ -66,5 +66,21 @@ public class Main {
             total1 = total1 + putOff1;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total1 + " рублей.");
         }
+
+        System.out.println("Домашняя 7");
+
+        System.out.println("Задача 1");
+
+        int putOff2 = 15000;
+        int total2 = 0;
+        int i = 0;
+        while (total2 <= 2_459_000) {
+            total2 = total2 + total2/ 100;
+            total2 = total2 + putOff2;
+            i+=1;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total2 + " рублей.");
+        }
+
+
     }
 }
