@@ -109,5 +109,17 @@ public class Main {
             int populationRatioCityY = cityPopulationY / numberOfPersonsY;
             cityPopulationY = cityPopulationY + (populationGrowthYear * populationRatioCityY);
         }
+
+        System.out.println("Задача 4");
+
+        int initialDepositAmount = 15000;
+        int monthlyInterest = 7;
+        int month = 0;
+        while (initialDepositAmount <= 12_000_000) {
+            month ++;
+            int procenter = (initialDepositAmount * monthlyInterest) / 100;
+            initialDepositAmount = initialDepositAmount + procenter;
+            System.out.println("Месяц " + month +", сумма накоплений составляет " + initialDepositAmount);
+        }
     }
 }
