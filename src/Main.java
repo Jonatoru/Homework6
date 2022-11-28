@@ -92,5 +92,22 @@ public class Main {
         for (int numbers2 =10 ;numbers2 >= 1; numbers2 --) {
             System.out.print(numbers2);
         }
+
+        System.out.println("\nЗадача 3");
+
+        int cityPopulationY = 12_000_000;
+        int numberOfPersonsY = 1000;
+        int fertilityCityYYear = 17;
+        int mortalityCitiYYear = 8;
+        int populationGrowthYear = fertilityCityYYear - mortalityCitiYYear;
+        int numberOfYears = 0;
+        while (numberOfYears <= 10) {
+            if (numberOfYears > 0) {
+                System.out.println("Год " + numberOfYears +", численность населения составляет " + cityPopulationY);
+            }
+            numberOfYears ++;
+            int populationRatioCityY = cityPopulationY / numberOfPersonsY;
+            cityPopulationY = cityPopulationY + (populationGrowthYear * populationRatioCityY);
+        }
     }
 }
