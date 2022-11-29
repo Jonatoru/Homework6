@@ -135,5 +135,21 @@ public class Main {
             System.out.println("Месяц " + month1 +", сумма накоплений составляет " + initialDepositAmount1);
             }
         }
+
+        System.out.println("Задача 6");
+
+        int initialDepositAmount2 = 15000;
+        int monthlyInterest2 = 7;
+        int month2 = 0;
+        int yers = 9;
+        int monthsOfTheYear = yers * 12;
+        while (month2 <= monthsOfTheYear) {
+            month2 ++;
+            int procenter = (initialDepositAmount2 * monthlyInterest2) / 100;
+            initialDepositAmount2 = initialDepositAmount2 + procenter;
+            if (month2 % 6 == 0) {
+                System.out.println("Месяц " + month2 +", сумма накоплений составляет " + initialDepositAmount2);
+            }
+        }
     }
 }
