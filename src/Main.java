@@ -151,5 +151,12 @@ public class Main {
                 System.out.println("Месяц " + month2 +", сумма накоплений составляет " + initialDepositAmount2);
             }
         }
+
+        System.out.println("Задача 7");
+
+        int daysInAMonth = 31;
+        for (int firstFriday = 4; firstFriday <= daysInAMonth; firstFriday+= 7) {
+            System.out.println("Сегодня пятница, " + firstFriday + "-е число. Необходимо подготовить отчет.");
+        }
     }
 }
