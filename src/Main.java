@@ -158,5 +158,19 @@ public class Main {
         for (int firstFriday = 4; firstFriday <= daysInAMonth; firstFriday+= 7) {
             System.out.println("Сегодня пятница, " + firstFriday + "-е число. Необходимо подготовить отчет.");
         }
+
+        System.out.println("Задача 8");
+
+        int startingYear = 0;
+        int spanFrequency = 79;
+        int referenceYear = 2022;
+        int countingPeriod = 200;
+        int countingPeriod1 = 100;
+
+        for (int r = startingYear;r <= referenceYear + countingPeriod ; r+=spanFrequency) {
+            if (r > referenceYear - countingPeriod1 && r < referenceYear + countingPeriod) {
+                System.out.println(r);
+            }
+        }
     }
 }
