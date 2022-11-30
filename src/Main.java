@@ -172,5 +172,13 @@ public class Main {
                 System.out.println(r);
             }
         }
+
+        System.out.println("Задача 9");
+
+        int numberInTheTable = 2;
+        for (int n = 1; n <= 10; n ++) {
+            int result = numberInTheTable * n;
+            System.out.println(numberInTheTable + " * " + n + " = " + result);
+        }
     }
 }
